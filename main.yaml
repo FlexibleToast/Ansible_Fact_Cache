@@ -1,0 +1,7 @@
+---
+- name: Create fact cache
+  hosts: all
+  gather_facts: true
+  tasks:
+  - name: Ping hosts
+    ping:
