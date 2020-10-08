@@ -3,5 +3,5 @@
   hosts: all
   gather_facts: true
   tasks:
-  - name: Ping hosts
-    ping:
+  - debug:
+      msg: "Facts gathered"
